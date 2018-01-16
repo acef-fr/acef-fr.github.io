@@ -13,7 +13,7 @@ python:
 before_install:
 - openssl aes-256-cbc -K $encrypted_0da3f43c2110_key -iv $encrypted_0da3f43c2110_iv -in id_rsa.enc -out id_rsa -d
 - git config --global user.name 'Zhi Yan'
-- git config --global user.email 'zhi.yan@utbm.fr'
+- git config --global user.email 'zyan@lincoln.ac.uk'
 - git config --global push.default 'simple'
 - pip install --upgrade pip wheel
 - echo -e 'Host github.com\n    StrictHostKeyChecking no' >> ~/.ssh/config
